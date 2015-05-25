@@ -2,6 +2,7 @@
 It marks some android development notes. :-D
 
 Android studio jni header shell (autojavah.sh)
+#!autojavah.sh
 #!/bin/sh
 export ProjectPath=$(cd "../$(dirname "$1")"; pwd)
 export TargetClassName="package path + Activity Name" #!example com.example.mop.testndk.MainActivity
